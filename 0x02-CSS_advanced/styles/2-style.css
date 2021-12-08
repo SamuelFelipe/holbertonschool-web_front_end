@@ -2,11 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: #161616;
-}
-
-a {
+body, a {
   background-color: #161616;
 }
 
@@ -14,10 +10,6 @@ a {
   display: none;
 }
 
-.card-category {
-  background-color: #D73953;
-}
-
-.section-tagline {
+.card-category, .section-tagline {
   background-color: #D73953;
 }
