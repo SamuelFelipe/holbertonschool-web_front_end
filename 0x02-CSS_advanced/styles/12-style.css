@@ -63,12 +63,13 @@ a {
   color: var(--section-title-color);
 }
 
-.card-category, .section-tagline {
-  color: var(--color-black);
-}
-
 .section-tagline {
+  color: var(--color-black);
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
+}
+
+.card-category {
+  color: var(--color-black);
 }
