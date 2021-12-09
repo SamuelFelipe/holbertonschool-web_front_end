@@ -4,6 +4,8 @@ $bg-color: #6D6D6D;
 body {
   color: $color;
   background-color: $bg-color;
+  margin: 0;
+  padding: 0;
   & p {
     margin: 10px;
   }
