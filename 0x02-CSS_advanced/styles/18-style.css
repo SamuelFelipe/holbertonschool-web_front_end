@@ -30,9 +30,9 @@
   --nav-item-font-family: var(--font-family-title);
   --nav-item-font-weight: var(--font-weight-bold);
   --nav-item-font-size: var(--font-size-medium);
-  --nav-item-letter-spacing: 4%;
+  --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0, 0, 0, 3rem;
+  --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
 }
 
@@ -84,7 +84,7 @@ a:active {
 .nav {
   margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style: none;
   text-align: center;
 }
 
@@ -97,12 +97,9 @@ a:active {
   margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
   display: block;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  padding-left: auto;
-  padding-right: auto;
+  padding: 0.5rem 1rem;
 }
 
 .nav-link:hover {
