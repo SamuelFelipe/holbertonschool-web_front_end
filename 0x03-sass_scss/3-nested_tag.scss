@@ -1,20 +1,7 @@
-$color: #3D3D3D;
-$bg-color: #6D6D6D;
-
 body {
-  color: $color;
-  background-color: $bg-color;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   & p {
     margin: 10px;
   }
-}
-
-p {
-  color: $color;
-}
-
-h2 {
-  background-color: $bg-color;
 }
