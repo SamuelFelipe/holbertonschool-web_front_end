@@ -1,0 +1,18 @@
+$color: #3D3D3D;
+$bg-color: #6D6D6D;
+
+body {
+  color: $color;
+  background-color: $bg-color;
+  & p {
+    margin: 10px;
+  }
+}
+
+p {
+  color: $color;
+}
+
+h2 {
+  background-color: $bg-color;
+}
